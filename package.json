@@ -1,0 +1,16 @@
+{
+  "name": "card-check",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "start": "npm --workspace backend start",
+    "dev": "npm --workspace backend run dev",
+    "test": "npm --workspace backend test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
