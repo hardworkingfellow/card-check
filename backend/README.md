@@ -22,7 +22,8 @@ npm install
 npm run dev
 ```
 
-The API listens on `127.0.0.1:3001`. The server creates or updates the single
+The API listens on `0.0.0.0` and uses `PORT` (default `3001`), so it is reachable
+by Render and other hosting platforms. The server creates or updates the single
 administrator account from `ADMIN_EMAIL` and `ADMIN_PASSWORD` at startup.
 Only that configured email can sign in. Change the environment password and
 restart the API to rotate the password.

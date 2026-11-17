@@ -590,7 +590,7 @@ export async function startServer() {
   }, 60 * 60 * 1000)
   cleanupTimer.unref()
   const server = createHttpServer(app)
-  const host = process.env.HOST ?? '127.0.0.1'
+  const host = process.env.HOST ?? '0.0.0.0'
   const port = Number(process.env.PORT ?? 3001)
 
   await new Promise((resolve, reject) => {
