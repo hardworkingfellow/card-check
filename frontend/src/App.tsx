@@ -29,7 +29,6 @@ function HomePage() {
             <motion.div className="hero-copy" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }}>
               <div className="hero-actions">
                 <Link to="/check" className="button">Check a Gift Card <ArrowRight size={17} /></Link>
-                <Link to="/#how-it-works" className="button button-outline"><span className="play-icon">▶</span> How It Works</Link>
               </div>
               <div className="hero-footnote"><ShieldCheck size={16} /> Optional image masking <span /> No issuer verification</div>
             </motion.div>
